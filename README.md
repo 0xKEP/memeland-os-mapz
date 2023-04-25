@@ -1,0 +1,1 @@
+Just a fun extension which helps you show mapz status on captainz memeland opensea pages 

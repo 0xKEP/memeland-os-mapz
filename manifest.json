@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Memeland-OS Mapz",
+  "version": "1.0",
+  "description": "Add Mapz element to the Traits block on Captainz OpenSea NFT pages.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://opensea.io/assets/ethereum/0x769272677fab02575e84945f03eca517acc544cc/*"
+      ],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
